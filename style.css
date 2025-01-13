@@ -1,6 +1,6 @@
 .container{
     /* background-color: #fff; */
-    background-color: red;
+     
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -67,7 +67,7 @@
   .explore-button {
     padding: 10px 20px;
     font-size: 1rem;
-    font-weight: bold;
+  
     color: #fff; /* White text */
     background-color: #004d40; /* Dark green */
     border: none;
@@ -107,4 +107,117 @@
     border: 1px solid #ddd;  
     border-radius: 8px;
 }
+.Ccard{
+    padding: 15px;
+    border: 1px solid #ddd;  
+    border-radius: 8px;
+    background-color: #fafdfc;
+    margin: 20px;
+     
+}
+.flex
+{
+    margin: 20px;
+}
+.flex img{
+    border-radius: 20px;
+}
+.DFlex{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.donate{
+    margin: auto;
+    display: flex;
+ gap: 20px;
+    justify-content: center;
+}
+.donate-text{
+  text-align: center;
+}
+.donate-button1 {
+  
+    padding: 30px 35px;
+    font-size: 1em;
+    background-color: #fff;
+    font-weight: bold;
+    border: 1px solid #cde9dc;
+    border-radius: 3px;
+}
+.donate-button2 {
  
+    padding: 30px 35px;
+    font-size: 1em;
+    background-color:  #7ce3d7;
+    font-weight: bold;
+    border: 1px solid #cde9dc;
+    border-radius: 3px;
+}
+.donaInput{
+padding: 10px;
+border-top: none;
+border-left: none;
+border-right: none;
+border-bottom: 2px solid rgba(7, 1, 1, 0.575);
+text-align: center;
+width: 480px;
+background-color: #ddd;
+border-radius: 5px;
+}
+.subscribe{
+    text-align: center;
+    background-color: #8ceada;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.subscribeInput{
+    padding: 10px;    
+    border : none;   
+    width: 480px;
+    background-color: #ddd;
+    border-radius: 5px;
+     }
+     .btn{
+        padding: 10px 20px;  
+    color: #fff; /* White text */
+    background-color: #004d40; /* Dark green */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+     }
+ .subscribeFlex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+.input{
+ text-align: center;
+ margin-top: 20px;
+
+}
+
+
+footer {
+    
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+footer a {
+    color: #00a3a3;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.hr{
+    border: 1px solid rgb(246, 235, 213);
+    width: 50%;
+}
