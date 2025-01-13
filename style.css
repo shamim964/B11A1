@@ -1,6 +1,110 @@
-body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.container{
+    /* background-color: #fff; */
+    background-color: red;
+    padding-left: 10px;
+    padding-right: 10px;
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     
+    
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 15px;
+    color: #000; /* Black text color */
+  }
+  
+  .sign-in {
+    padding: 5px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #00856f; /* Green text */
+    background: transparent;
+    border: 2px solid #00856f; /* Green border */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .sign-in:hover {
+    background: #00856f;
+    color: #fff; /* White text on hover */
+  }
+
+  .section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #cde9dc; /* Light green background */
+    border-radius: 10px; /* Rounded corners */
+    margin: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .content {
+    max-width: 50%; 
+  }
+  
+  .content h4 {
+    font-size: 1.2rem;
+    color: #5a5a5a; /* Light gray */
+    margin-bottom: 10px;
+  }
+  
+  .content h1 {
+    font-size: 2.5rem;
+    color: #000; /* Black text */
+    margin-bottom: 20px;
+  }
+  
+  .explore-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff; /* White text */
+    background-color: #004d40; /* Dark green */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+  
+  .explore-button:hover {
+    background-color: #00695c; /* Lighter green on hover */
+  }
+  
+  .image-container {
+    max-width: 40%;
+  }
+  
+  .image-container img {
+    width: 100%;
+    border-radius: 5px;
+  }
+
+ 
+
+.pillars   {
+    font-size: 1em;    
+    margin-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.pillars .card {
+    display: inline-block;
+    width: 250px;
+    margin: 1%;
+    padding: 10px;
+    background-color: #fafdfc;
+    border: 1px solid #ddd;  
+    border-radius: 8px;
+}
+ 
