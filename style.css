@@ -98,12 +98,39 @@
     padding-right: 5px;
 }
 
-.pillars .card {
+.pillars .card0{
     display: inline-block;
     width: 250px;
     margin: 1%;
     padding: 10px;
-    background-color: #fafdfc;
+    background-color: #aff2f3;
+    border: 1px solid #ddd;  
+    border-radius: 8px;
+}
+.pillars .card1 {
+    display: inline-block;
+    width: 250px;
+    margin: 1%;
+    padding: 10px;
+    background-color: #b2f8e1;
+    border: 1px solid #ddd;  
+    border-radius: 8px;
+}
+.pillars .card2 {
+    display: inline-block;
+    width: 250px;
+    margin: 1%;
+    padding: 10px;
+    background-color: #c9c592;
+    border: 1px solid #ddd;  
+    border-radius: 8px;
+}
+.pillars .card3 {
+    display: inline-block;
+    width: 250px;
+    margin: 1%;
+    padding: 10px;
+    background-color: #d5de3a;
     border: 1px solid #ddd;  
     border-radius: 8px;
 }
